@@ -40,5 +40,23 @@
                 "timestamp": "2026-10-07T18:37:46Z"
             }
         ]
+    },
+    {
+        "guid": "dbe0405a-4980-41c1-9055-561b51fc9e5f",
+        "name": "Session Persist",
+        "description": "Saves the capabilities each client reports and restores them when the client reconnects after a server restart. Jellyfin only keeps capabilities in memory, so without this, devices drop out of \"Play on\" until they are reloaded.\n",
+        "overview": "Keep cast targets available after a server restart",
+        "owner": "daniel",
+        "category": "General",
+        "versions": [
+            {
+                "version": "0.1.0.0",
+                "changelog": "Initial release. Restores client capabilities after a server restart, so devices stay available in \"Play on\" without reloading the client.",
+                "targetAbi": "12.1.0.0",
+                "sourceUrl": "https://github.com/daniel--/jellyfin-session-persist/releases/download/v0.1.0/session-persist_0.1.0.0.zip",
+                "checksum": "93e50fec3b88760917eb9ea9c666bb64",
+                "timestamp": "2026-10-09T18:10:11Z"
+            }
+        ]
     }
 ]
